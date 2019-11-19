@@ -1,0 +1,42 @@
+.container {
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.page {
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.page {
+    font-size: 200px;
+    color:white;
+    background:rgba(255,255,255,0.5);
+    text-align:center;
+}
+.home {
+    top:0;
+    background:url('one.jpg') center center no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.about {
+    top:100%;
+    background:url('two.jpg') center center no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.contact {
+    top:200%;
+    background:url('three.jpg') center center no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.gallery {
+    top:300%;
+    background:url('four.jpg') center center no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}

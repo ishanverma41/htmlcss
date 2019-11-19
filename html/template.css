@@ -1,0 +1,90 @@
+.page {
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0%;
+    left:0%;
+    background-image:url('adventuresports2.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background: black;
+  font-size: 40px;
+  color: white;
+}
+.right{
+  height: 30px;
+  width: 700px;
+  float: right;
+}
+.intro1 {
+  width: 400px;
+  height: 30px;
+  transition: all 0.25s ease-out 0s;
+  float: left;
+}
+.intro2 {
+  width: 150px;
+  height: 30px;
+  float:left;
+  transition: all 0.25s ease-out 0s;
+  font-size: 20px;
+  margin-top: 12px;
+}
+.content{
+  width: 100px;
+  height: 1000px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  color: white;
+}
+.header1 em {
+  width: 100%;
+  font-size: 40px;
+  margin-left: 30px;
+}
+.intro2:hover{
+  transform: scale(1.2);
+}
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+ul li {
+    width: 150px;
+    padding:10px 10px;
+    background:transparent;
+    color:#fff;
+    float:left;
+    text-align: center;
+    position: relative;
+}
+ul li::before {
+    content: '';
+    width: 0px;
+    height:0px;
+    position: absolute;
+    top:0;
+    left:0;
+    border-style:solid;
+    border-width:20px;
+    border-color: transparent transparent transparent #08f;
+    z-index: 0;
+    transition: all 0.25s ease-out 0s;
+}
+ul li span {
+    position: relative;
+    z-index: 1;
+}
+ul li:hover::before {
+    width:100%;
+    height:100%;
+    background:black;
+    border:none;
+}

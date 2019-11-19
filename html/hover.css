@@ -1,0 +1,101 @@
+.background1 {
+  width: 100%;
+  height: 250px;
+}
+.box1 {
+  width: 250px;
+  height: 250px;
+  background: #f90;
+  transition: all 0.25s ease-out 0s;
+  float: left;
+}
+.box2 {
+  width: 250px;
+  height: 250px;
+  background: #f05;
+  transition: all 0.25s ease-out 0s;
+  float: right;
+}
+.background2{
+  width: 100%;
+  height: 250px;
+}
+.box3 {
+  width: 250px;
+  height: 250px;
+  background: red;
+  transition: all 0.25s ease-out 0s;
+  float: auto;
+  margin: auto;
+}
+.background3{
+  width: 100%;
+  height: 250px;
+}
+.box4 {
+  width: 250px;
+  height: 250px;
+  background: purple;
+  transition: all 0.25s ease-out 0s;
+  float: right;
+}
+.box5 {
+  width: 250px;
+  height: 250px;
+  background: pink;
+  transition: all 0.25s ease-out 0s;
+  float: left;
+}
+ /*.box2:hover {
+width:300px;
+height:300px;
+}*/
+ /*.box1:hover > .box2 {
+   height: 200px;
+    width: 200px;
+    cursor: pointer;
+}*/
+ /*.box1:hover + div,.box1:hover + div +div {
+   width: 600px;
+}*/
+
+.box1:hover > .box2 {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.box2:hover + .box3 {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.box3:hover + .box4 {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+/*.box4:hover + .box5 {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}*/
+.box1:hover {
+width:200px;
+height:200px;
+}
+.box2:hover {
+width:200px;
+height:200px;
+}
+.box3:hover {
+width:200px;
+height:200px;
+}
+.box4:hover {
+width:200px;
+height:200px;
+}
+.box5:hover {
+width:200px;
+height:200px;
+}

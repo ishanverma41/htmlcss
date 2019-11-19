@@ -1,0 +1,44 @@
+.container {
+    width: 750px;
+    height: 50px;
+    background:#444;
+    overflow: hidden;
+}
+.container div {
+    color:#fff;
+    width: 150px;
+    height:100%;
+    text-align:center;
+    padding-top:12px;
+    float:left;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.container div::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background:#0f0;
+    border-radius: 50%;
+    position: absolute;
+    top:18px;
+    left:5px;
+    transition: all 0.25s ease-out 0s;
+    z-index: 0;
+}
+.container div span {
+    position: relative;
+    z-index: 1;
+    transition: all 0.25s ease-out 0s;
+}
+.container div:hover > span {
+    color:#444;
+}
+.container div:hover::before {
+    height: 100%;
+    top:0;
+    width: 100%;
+    left:0;
+    border-radius: 0;
+}
